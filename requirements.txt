@@ -9,12 +9,12 @@ charset-normalizer==3.4.0
 click==8.1.7
 colorama==0.4.6
 exceptiongroup==1.2.2
-Flask==3.0.3
+Flask==3.0.3  # Pouze jedna verze Flasku
 Flask-Alembic==3.1.1
 Flask-Migrate==4.0.7
-Flask==2.0.1
 Flask-WTF==0.14.3
 Flask-SQLAlchemy==2.5.1
+Flask-Login==0.6.2
 frozendict==2.4.6
 greenlet==3.1.1
 h11==0.14.0
