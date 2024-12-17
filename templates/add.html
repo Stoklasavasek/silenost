@@ -1,0 +1,16 @@
+<form method="POST" action="{{ url_for('add') }}">
+    {{ form.hidden_tag() }}
+    <div class="mb-3">
+        {{ form.id.label }}
+        {{ form.id(class="form-control") }}
+    </div>
+    <div class="mb-3">
+        {{ form.name.label }}
+        {{ form.name(class="form-control") }}
+    </div>
+    <div class="mb-3">
+        {{ form.age.label }}
+        {{ form.age(class="form-control") }}
+    </div>
+    <button type="submit" class="btn btn-primary">Add Person</button>
+</form>
