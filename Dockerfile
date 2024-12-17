@@ -7,6 +7,9 @@ WORKDIR /app
 # Zkopírujeme požadavky do kontejneru
 COPY requirements.txt .
 
+# Aktualizujeme pip
+RUN pip install --upgrade pip
+
 # Nainstalujeme požadované balíčky
 RUN pip install --no-cache-dir -r requirements.txt
 
